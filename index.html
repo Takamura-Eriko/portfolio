@@ -1,67 +1,143 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY Pōtoforio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f2d8ef;
-        }
-        .img {
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-            margin-top: 20px;
-        }
-        .content {
-            max-width: 600px;
-            margin: auto;
-            background-color: #f6f2ef; /* コンテンツの背景色を白に設定 */
-            padding: 20px; /* コンテンツの内側の余白を追加 */
-            border-radius: 8px; /* 角を少し丸くする */
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
-        }
-        ul {
-            text-align: left; /* リスト全体を左揃えに設定 */
-            padding-left: 30px; /* リストの左側に余白を追加 */
-        }
-        li {
-            text-align: left; /* 各項目を左揃えに設定 */
-        }
-        p {
-            line-height: 0.5;
-        }
-       h3 {
-            line-height: 2;
-       }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Takamura Eriko / Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2d8ef;
+      margin: 0;
+      padding: 20px;
+    }
+    .img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      margin: 20px auto;
+      display: block;
+    }
+    .content {
+      max-width: 800px;
+      margin: auto;
+      background-color: #f6f2ef;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: #333;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+  </style>
 </head>
 <body>
-    <h1>My Pōtoforio</h1>
-    <div class="content">
-        <h2>高村 絵里子</h2>
-        <img src="IMG_5226.jpg" alt="プロフィール画像" class="img">
+  <div class="content">
+    <h1>Portfolio of Eriko Takamura</h1>
 
-        <h3>プロフィール</h3>
-        <p>神奈川県出身</p>
-        <p>トキワ松学園横浜美術短期大学(現・横浜美術大学)卒業</p>
-        <p>趣味：ハンドメイド、工作</p>
-        <p></p>
+    <section>
+      <h2>高村 絵里子</h2>
+      <img src="IMG_5226.jpg" alt="プロフィール画像" class="img">
+    </section>
 
+    <section>
+      <h3>自己紹介</h3>
+      <p>
+        美術短大で培った「見せ方」の感覚を活かし、<strong>見やすく・使いやすいUI設計</strong>にこだわった開発を行っています。<br>
+        2024年からは、実務に近い形式で学べるエンジニア養成ブートキャンプ <strong>Ms.Engineer</strong> にて約8ヶ月間学習。<br>
+        フロントエンド・バックエンドの両面から開発に取り組み、チーム開発やAPI設計なども経験しました。
+      </p>
+      <p>
+        コードを書くことに加え、ユーザー視点での設計・レイアウト・配色など、<strong>UI/UXの体験向上</strong>にも情熱を注いでいます。<br>
+        今後は、UIデザインとフロントエンド実装の橋渡しができるエンジニアを目指しています。
+      </p>
+    </section>
 
-        <h3>仕事の経歴</h3>
-        <ul>
-            <li>2000年 - 平安レイサービス株式会社　[フロント・インフォメーション業務]</li>
-            <li>2003年 - 八重椿本舗　[化粧品の製造・検品業務]</li>
-            <li>2003年 - リテイルネットワークス株式会社 ディズニーストア　[総務部勤務]</li>
-            <li>2005年 - 有限会社湘南七宝焼　[販売・接客業務]</li>
-            <li>2007年 - 株式会社エムテック　[建設業書類の作成・図面編集業務]</li>
-            <li>2018年 - 平塚市役所　[マイナンバーカード交付受付業務]</li>
-            <li>2022年 - 株式会社シンメイ商事　[乳製品の配送業務]</li>
-        </ul>
-    </div>
+    <section>
+      <h3>プロフィール</h3>
+      <p>神奈川県出身。長年の接客経験を経てIT業界に挑戦。</p>
+      <p>趣味：ハンドメイド（アクセサリーなど）、工作</p>
+    </section>
+
+    <section>
+      <h3>スキルセット</h3>
+      <ul>
+        <li>フロントエンド：Next.js、React、Tailwind CSS</li>
+        <li>バックエンド：Python（FastAPI）、SQLAlchemy、Alembic、PostgreSQL</li>
+        <li>UI設計：Figma、HTML/CSS</li>
+        <li>ツール：GitHub、Postman、Docker（学習中）、VSCode</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>プロジェクト紹介</h3>
+      <h4>HealthyBloom - 主婦向け健康管理サポートアプリ</h4>
+      <p>
+        健康診断データをもとに、1週間分の栄養バランスを考慮した食事メニューを提案するWebアプリです。<br>
+        私は主に、「レシピ自動提案APIの連携」と「UIの見やすさ・使いやすさの設計」を担当しました。
+      </p>
+      <p>
+        本プロジェクトではFigmaのようなUI設計ツールは使用せず、V0（UI生成ツール）やAIの提案を参考にしながら、<br>
+        実際に画面を動かして試行錯誤を重ね、視認性や構成にこだわって調整・実装を行いました。
+      </p>
+      <ul>
+        <li>FastAPIによるレシピ提案APIの連携・出力整形</li>
+        <li>健康診断結果から栄養タイプを判定し、1週間分の献立を自動生成</li>
+        <li>朝昼晩の区切り表示や、栄養素別ラベルの色分けなどUI面を工夫</li>
+        <li>主婦ユーザーの視点を意識した直感的な構成・レイアウト設計</li>
+      </ul>
+      <p>使用技術：FastAPI / Next.js / Tailwind CSS / PostgreSQL / Postman</p>
+      <p>
+        GitHub：
+        <a href="https://github.com/ms-engineer-bc24-11/Sec9-10-HealthyBloom" target="_blank">
+          プロジェクトを見る
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h3>職歴の要約</h3>
+      <p>
+        約20年間にわたり、接客・事務・軽作業など多様な業務に従事。<br>
+        特に「人との関わり」や「正確さ」が求められる場面で信頼を積み重ねてきました。<br>
+        子育てを経て、2024年よりIT分野へ転身。
+      </p>
+    </section>
+
+    <section>
+      <h3>職歴詳細</h3>
+      <ul>
+        <li>2000年 - 平安レイサービス株式会社（フロント・インフォメーション）</li>
+        <li>2003年 - 八重椿本舗（化粧品製造・検品）</li>
+        <li>2003年 - リテイルネットワークス株式会社 ディズニーストア（総務）</li>
+        <li>2005年 - 有限会社湘南七宝焼（販売・接客）</li>
+        <li>2007年 - 株式会社エムテック（建設業関連書類・図面編集）</li>
+        <li>2018年 - 平塚市役所（マイナンバーカード交付窓口）</li>
+        <li>2022年 - 株式会社シンメイ商事（乳製品の配送）</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>今後の目標</h3>
+      <p>
+        異業種からの挑戦でITの奥深さと楽しさを知りました。<br>
+        今後は、UI/UX設計とフロントエンド実装の両面を磨きながら、<br>
+        ユーザーの心に届くようなサービスを形にできるエンジニアを目指します。
+      </p>
+    </section>
+  </div>
 </body>
 </html>
